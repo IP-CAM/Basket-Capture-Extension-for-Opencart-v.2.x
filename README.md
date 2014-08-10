@@ -1,4 +1,4 @@
-# Basket Capture Magento Extension
+# Basket Capture OpenCart Extension
 
 An extension for OpenCart to automatically re-engage customers who abandon their cart on your website. A [Basket Caputre](http://basketcapture.com) account is required to use this extension.
 
