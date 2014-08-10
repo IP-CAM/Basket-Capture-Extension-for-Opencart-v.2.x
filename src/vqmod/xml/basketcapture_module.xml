@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id>Basket Capture</id>
+	<version>1</version>
+	<vqmver required="true">2.4.1</vqmver>
+	<author>basketcapture.com</author>
+	
+	<file name="catalog/controller/checkout/success.php">
+	    <operation>
+
+            <search position="after"><![CDATA[
+			public function index() {
+        	]]></search>
+
+            <add><![CDATA[
+    		require(DIR_APPLICATION . 'controller/module/basket_capture_checkout_success_include.php');
+        	]]></add>
+
+	    </operation>
+    </file>
+
+</modification>
